@@ -2,7 +2,7 @@ export const authors = [
   {
     id: 1,
     name: "Rakibul Islam",
-    bio: "Technology writer and software developer with 10 years of experience.",
+    bio: "Technology writer and software developer with 2 years of experience.",
     avatar: "https://static.vecteezy.com/system/resources/previews/002/275/847/original/male-avatar-profile-icon-of-smiling-caucasian-man-vector.jpg",
     postsCount: 24,
     followers: 1420
@@ -69,7 +69,6 @@ export const posts = [
   }
 ];
 
-// Start from 3 since id 1 and 2 are already used
 for (let i = 3; i <= 15; i++) {
   const randomAuthor = authors[Math.floor(Math.random() * authors.length)];
   posts.push({
